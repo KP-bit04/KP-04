@@ -1,0 +1,6 @@
+{
+  "name": "Chronos & Form | Journal of Material Craft & Architecture",
+  "description": "An independent editorial publication exploring physical craftsmanship, architectural materiality, cartography, and contemplative design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-reading {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-sans-ui {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Custom drop cap styling */
+.editorial-dropcap::first-letter {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 4.25rem;
+  line-height: 0.82;
+  float: left;
+  margin-right: 0.85rem;
+  margin-top: 0.25rem;
+  font-weight: 600;
+  color: #1c1917;
+}
+
+/* Hide scrollbar on category navigation */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
